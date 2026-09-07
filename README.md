@@ -58,33 +58,36 @@ Streamlit interface.
 │  📝 Generated Result                 │
 └──────────────────────────────────────┘
 
-
 ## 🛠️ Technologies Used
-Technology and Purpose
-🐍 Python -	Application development
-🎈 Streamlit -	Web interface
-🤗 Hugging Face - 	Pre-trained AI model
-🔄 Transformers	- Text generation pipeline
-🔥 PyTorch - Deep learning framework
-🧠 Qwen2.5-0.5B-Instruct	- Text generation model
 
+| Technology | Purpose |
+|---|---|
+| 🐍 Python | Application development |
+| 🎈 Streamlit | Web interface |
+| 🤗 Hugging Face | Pre-trained AI model |
+| 🔄 Transformers | Text generation pipeline |
+| 🔥 PyTorch | Deep learning framework |
+| 🧠 Qwen2.5-0.5B-Instruct | Text generation model |
 
 ## 🧠 Model
 
 This project uses:
 
-Qwen/Qwen2.5-0.5B-Instruct
+**Qwen/Qwen2.5-0.5B-Instruct**
 
 The model is loaded using the Hugging Face Transformers pipeline
 for text generation.
 
+```python
 pipeline(
     "text-generation",
     model="Qwen/Qwen2.5-0.5B-Instruct"
 )
+```
 
+## 🔄 How It Works
 
-##  🔄 How It Works
+```text
              👤 User
                 │
                 ▼
@@ -104,15 +107,17 @@ pipeline(
                 │
                 ▼
           📝 Generated Text
+```
 
+## 📂 Project Structure
 
-##  📂 Project Structure
+```text
 AI-Text-Generation/
 │
 ├── app.py
 ├── requirements.txt
 └── README.md
-
+```
 
 ### 🛠️ Requirements
 
@@ -143,128 +148,154 @@ AI-Text-Generation/
 | Qwen2.5-0.5B-Instruct | Text Generation Model |
 | VS Code | Development Environment |
 
+### 📦 Installation
 
-###  📦 Installation
-1. Clone the Repository
+#### 1. Clone the Repository
+
+```bash
 git clone - https://github.com/nikithanka7-byte
-2. Open the Project Folder
-cd AI-Text-Generation
-3. Install Dependencies
-pip install streamlit transformers torch
+```
 
+#### 2. Open the Project Folder
+
+```bash
+cd AI-Text-Generation
+```
+
+#### 3. Install Dependencies
+
+```bash
+pip install streamlit transformers torch
+```
 
 ### ▶️ Run the Application
 
 Start the Streamlit application:
 
+```bash
 python -m streamlit run app.py
+```
 
 The application will be available at:
 
+```text
 http://localhost:8501
+```
 
 Open the URL in your browser to use the application.
 
-
 ### 💡 Example
 
-Input
-Artificial Intelligence is
+#### Input
 
-AI Generated Text
+```text
+Artificial Intelligence is
+```
+
+#### AI Generated Text
+
+```text
 Artificial Intelligence is transforming the way people
 work, learn, communicate, and solve complex problems.
 It is becoming an important technology in many fields.
+```
 
 The generated result may vary each time because the model uses
 probabilistic text generation.
 
-
 ### 🎨 Generation Controls
-Creativity
+
+#### Creativity
+
 The Creativity slider controls how diverse the generated text can be.
 
+```text
 Lower Value  → More predictable
 Higher Value → More creative
+```
 
-Text Length
+#### Text Length
+
 Users can select the amount of text to generate:
 
+```text
 30 → Short
 50 → Medium
 75 → Long
 100 → Longer
+```
 
-###  📊 Text Analysis
+### 📊 Text Analysis
 
 Before generating text, the application displays:
 
-📝 Number of words
-🔤 Number of characters
+- 📝 Number of words
+- 🔤 Number of characters
 
 This provides a quick overview of the user's input.
-
 
 ### 📚 Applications
 
 This project can be useful for:
 
-✍️ Creative writing
-📝 Content generation
-📖 Story continuation
-💡 Idea generation
-🎓 Educational purposes
-📰 Article drafting
-📢 Content creation
-🤖 AI experimentation
-
+- ✍️ Creative writing
+- 📝 Content generation
+- 📖 Story continuation
+- 💡 Idea generation
+- 🎓 Educational purposes
+- 📰 Article drafting
+- 📢 Content creation
+- 🤖 AI experimentation
 
 ### ✅ Advantages
-Simple and beginner-friendly
-Interactive user interface
-Uses a pre-trained language model
-No model training required
-Customizable text generation
-Easy to install and run
-Can be extended with additional AI features
 
+- Simple and beginner-friendly
+- Interactive user interface
+- Uses a pre-trained language model
+- No model training required
+- Customizable text generation
+- Easy to install and run
+- Can be extended with additional AI features
 
 ### 🚀 Future Enhancements
 
 Some possible improvements include:
 
-🌍 Multi-language text generation
-📄 Download generated text as a file
-💬 Chat-based AI interface
-📚 Text summarization
-🔤 Grammar correction
-🎙️ Voice input
-🔊 Text-to-speech output
-🗂️ Generation history
-☁️ Online deployment
-🧠 Support for multiple AI models
-
+- 🌍 Multi-language text generation
+- 📄 Download generated text as a file
+- 💬 Chat-based AI interface
+- 📚 Text summarization
+- 🔤 Grammar correction
+- 🎙️ Voice input
+- 🔊 Text-to-speech output
+- 🗂️ Generation history
+- ☁️ Online deployment
+- 🧠 Support for multiple AI models
 
 ### 🎯 Learning Outcomes
 
 Through this project, I learned:
 
-How to use Hugging Face Transformers
-How to load a pre-trained language model
-How Transformer pipelines work
-How to build an interactive application using Streamlit
-How to integrate AI models into Python applications
-How to control text generation parameters
-How to create and organize an AI project for GitHub
+- How to use Hugging Face Transformers
+- How to load a pre-trained language model
+- How Transformer pipelines work
+- How to build an interactive application using Streamlit
+- How to integrate AI models into Python applications
+- How to control text generation parameters
+- How to create and organize an AI project for GitHub
 
+### 👩‍💻 Author
 
-###  👩‍💻 Author
-Nikitha R
-B.Sc. Computer Science with Artificial Intelligence
+**Nikitha R**
+
+**B.Sc. Computer Science with Artificial Intelligence**
 
 ### ⭐ Support
+
 If you found this project useful, consider giving the repository a ⭐ on GitHub!
 
 ### 📄 License
+
 This project is created for educational and learning purposes.
 
+     
