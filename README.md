@@ -153,7 +153,7 @@ AI-Text-Generation/
 #### 1. Clone the Repository
 
 ```bash
-git clone - https://github.com/nikithanka7-byte
+git clone - https://github.com/nikithanka7-byte/Text-Generation-
 ```
 
 #### 2. Open the Project Folder
