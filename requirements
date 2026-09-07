@@ -1,0 +1,7 @@
+🛠️ Requirements
+Python 3.14 – Programming language
+Streamlit – Creates the web application/interface
+Hugging Face Transformers – Provides the Transformer pipeline
+PyTorch – Runs the AI model
+Hugging Face Model – Qwen/Qwen2.5-0.5B-Instruct
+VS Code – Development environment
