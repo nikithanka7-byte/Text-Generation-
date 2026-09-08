@@ -39,7 +39,8 @@ Streamlit interface.
 
 ## Application Preview
 
-[streamlit-app-2026-09-08-21-01-12.webm](https://github.com/user-attachments/assets/4f421c89-c787-4a4e-9bbc-df488dce8258)
+[streamlit-app-2026-09-08-21-01-12.webm](https://github.com/user-attachments/assets/b08b14f3-e6b6-4f0c-acb8-9c1dffbcb5de)
+
 
 
 ```text
