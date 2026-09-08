@@ -45,7 +45,7 @@ Streamlit interface.
 ┌──────────────────────────────────────┐
 │        Text Generation               │
 │                                      │
-│  Enter Your Idea                    │
+│  Enter Your Idea                     │
 │  ┌──────────────────────────────────┐│
 │  │ Artificial Intelligence is...    ││
 │  └──────────────────────────────────┘│
@@ -57,7 +57,7 @@ Streamlit interface.
 │  Generated Result                    │
 └──────────────────────────────────────┘
 
-# 🤖 AI Text Generation using Qwen
+##  AI Text Generation using Qwen
 
 An AI-powered **Text Generation Web Application** built using **Python, Streamlit, Hugging Face Transformers, PyTorch, and Qwen2.5-0.5B-Instruct**.
 
@@ -65,7 +65,7 @@ The application allows users to enter starting text and generate meaningful AI-g
 
 ---
 
-## 🚀 Technologies Used
+##  Technologies Used
 
 | **Technology**            | **Purpose**              |
 | ------------------------- | ------------------------ |
@@ -78,7 +78,7 @@ The application allows users to enter starting text and generate meaningful AI-g
 
 ---
 
-## 🧠 Model
+##  Model
 
 This project uses:
 
@@ -97,7 +97,7 @@ generator = pipeline(
 
 ---
 
-## 🔄 How It Works
+##  How It Works
 
 ```text
                     ┌───────────────────┐
@@ -135,104 +135,8 @@ generator = pipeline(
                  └────────────────────────┘
 ```
 
----
 
-## 📊 Project Workflow – SVG Diagram
-
-The following **SVG diagram** shows the complete workflow of the project.
-
-<svg width="700" height="750" viewBox="0 0 700 750" xmlns="http://www.w3.org/2000/svg">
-
-  <style>
-    .box {
-      fill: #f5f5f5;
-      stroke: #222;
-      stroke-width: 2;
-      rx: 12;
-      ry: 12;
-    }
-
-    .title {
-      font-family: Arial, sans-serif;
-      font-size: 22px;
-      font-weight: bold;
-      fill: #111;
-    }
-
-    .text {
-      font-family: Arial, sans-serif;
-      font-size: 17px;
-      font-weight: bold;
-      fill: #111;
-    }
-
-    .arrow {
-      stroke: #222;
-      stroke-width: 3;
-      marker-end: url(#arrowhead);
-    }
-  </style>
-
-  <defs>
-    <marker id="arrowhead"
-            markerWidth="10"
-            markerHeight="10"
-            refX="8"
-            refY="3"
-            orient="auto">
-      <polygon points="0 0, 10 3, 0 6" fill="#222"/>
-    </marker>
-  </defs>
-
-  <text x="350" y="35" text-anchor="middle" class="title">
-    AI Text Generation Workflow
-  </text>
-
-  <rect x="150" y="65" width="400" height="70" class="box"/>
-  <text x="350" y="108" text-anchor="middle" class="text">
-    User Input
-  </text>
-
-  <line x1="350" y1="135" x2="350" y2="175" class="arrow"/>
-
-  <rect x="150" y="175" width="400" height="70" class="box"/>
-  <text x="350" y="218" text-anchor="middle" class="text">
-    Streamlit Web Application
-  </text>
-
-  <line x1="350" y1="245" x2="350" y2="285" class="arrow"/>
-
-  <rect x="150" y="285" width="400" height="70" class="box"/>
-  <text x="350" y="328" text-anchor="middle" class="text">
-    Transformers Pipeline
-  </text>
-
-  <line x1="350" y1="355" x2="350" y2="395" class="arrow"/>
-
-  <rect x="150" y="395" width="400" height="70" class="box"/>
-  <text x="350" y="438" text-anchor="middle" class="text">
-    Hugging Face Model
-  </text>
-
-  <line x1="350" y1="465" x2="350" y2="505" class="arrow"/>
-
-  <rect x="150" y="505" width="400" height="70" class="box"/>
-  <text x="350" y="548" text-anchor="middle" class="text">
-    Qwen2.5-0.5B-Instruct
-  </text>
-
-  <line x1="350" y1="575" x2="350" y2="615" class="arrow"/>
-
-  <rect x="150" y="615" width="400" height="70" class="box"/>
-  <text x="350" y="658" text-anchor="middle" class="text">
-    AI Generated Text
-  </text>
-
-</svg>
-
----
-
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 AI-Text-Generation/
@@ -244,7 +148,7 @@ AI-Text-Generation/
 
 ---
 
-## 💻 Requirements
+##  Requirements
 
 ### Software Requirements
 
@@ -262,7 +166,7 @@ AI-Text-Generation/
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 | **Tool / Technology**         | **Purpose**               |
 | ----------------------------- | ------------------------- |
@@ -275,7 +179,7 @@ AI-Text-Generation/
 
 ---
 
-## 📥 Installation
+##  Installation
 
 ### 1. Clone the Repository
 
@@ -297,7 +201,7 @@ pip install streamlit transformers torch
 
 ---
 
-## ▶️ Run the Application
+##  Run the Application
 
 Start the Streamlit application using:
 
@@ -335,16 +239,16 @@ It is becoming an important technology in many fields.
 
 ---
 
-## 🎛️ Generation Controls
+##  Generation Controls
 
-### 🎨 Creativity
+###  Creativity
 
 The **Creativity slider** controls how diverse the generated text can be.
 
 * **Lower Value** → More predictable
 * **Higher Value** → More creative
 
-### 📏 Text Length
+###  Text Length
 
 Users can select the amount of text to generate:
 
@@ -357,7 +261,7 @@ Users can select the amount of text to generate:
 
 ---
 
-## 📊 Text Analysis
+##  Text Analysis
 
 Before generating text, the application displays:
 
@@ -368,22 +272,22 @@ This provides a quick overview of the user's input.
 
 ---
 
-## 🌍 Applications
+##  Applications
 
 This project can be useful for:
 
-* ✍️ **Creative writing**
-* 📝 **Content generation**
-* 📖 **Story continuation**
-* 💡 **Idea generation**
-* 🎓 **Educational purposes**
-* 📄 **Article drafting**
-* 🤖 **Content creation**
-* 🧪 **AI experimentation**
+*  **Creative writing**
+*  **Content generation**
+*  **Story continuation**
+*  **Idea generation**
+*  **Educational purposes**
+*  **Article drafting**
+*  **Content creation**
+*  **AI experimentation**
 
 ---
 
-## ✅ Advantages
+##  Advantages
 
 * **Simple and beginner-friendly**
 * **Interactive user interface**
@@ -395,7 +299,7 @@ This project can be useful for:
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 Future versions of this project can include:
 
@@ -412,7 +316,7 @@ Future versions of this project can include:
 
 ---
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 Through this project, I learned:
 
@@ -426,7 +330,7 @@ Through this project, I learned:
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 ### **Nikitha R**
 
