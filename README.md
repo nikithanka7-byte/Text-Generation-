@@ -201,7 +201,7 @@ Open the URL in your browser to use the application.
 
 ---
 
-## 📝 Example
+##  Example
 
 ### Input
 
