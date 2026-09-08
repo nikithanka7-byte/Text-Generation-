@@ -39,6 +39,7 @@ Streamlit interface.
 
 ## Application Preview
 
+[streamlit-app-2026-09-08-21-01-12.webm](https://github.com/user-attachments/assets/4f421c89-c787-4a4e-9bbc-df488dce8258)
 
 
 ```text
@@ -56,35 +57,15 @@ Streamlit interface.
 │                                      │
 │  Generated Result                    │
 └──────────────────────────────────────┘
+```
 
-##  AI Text Generation using Qwen
-
-An AI-powered **Text Generation Web Application** built using **Python, Streamlit, Hugging Face Transformers, PyTorch, and Qwen2.5-0.5B-Instruct**.
-
-The application allows users to enter starting text and generate meaningful AI-generated text interactively.
-
----
-
-##  Technologies Used
-
-| **Technology**            | **Purpose**              |
-| ------------------------- | ------------------------ |
-| **Python**                | Application development  |
-| **Streamlit**             | Web interface            |
-| **Hugging Face**          | Pre-trained AI model     |
-| **Transformers**          | Text generation pipeline |
-| **PyTorch**               | Deep learning framework  |
-| **Qwen2.5-0.5B-Instruct** | Text generation model    |
-
----
-
-##  Model
+###  **Model**
 
 This project uses:
 
-**Qwen/Qwen2.5-0.5B-Instruct**
+### **Qwen/Qwen2.5-0.5B-Instruct**
 
-The model is loaded using the **Hugging Face Transformers pipeline** for text generation.
+The model is loaded using the **Hugging Face Transformers pipeline** for **text generation**.
 
 ```python
 from transformers import pipeline
